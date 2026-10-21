@@ -13,11 +13,6 @@ A real-time, interactive 3D ray-marched recreation of the legendary **Matrix roo
 - **Rain Toggle (<kbd>G</kbd>):** Turn off rain anytime for a razor-sharp, crystal-clear view.
 - **2x Ultra Super-Sampling SSAA (<kbd>+</kbd> / <kbd>T</kbd>):** Boost resolution and eliminate aliasing.
 - **GPU Acceleration (CPU Relief):** Offscreen OpenGL raymarching computes the millions of distance-field steps in hardware and feeds the framebuffer back to the terminal, delivering buttery-smooth 60–120+ FPS with virtually zero CPU strain!
-
-<p align="center">
-  <img src="assets/matrix_code_terminal.gif" alt="The Matrix Terminal Code Edition" width="95%">
-</p>
-
 ---
 
 ## 🌟 Visual Showcase (Live Terminal Recordings)
@@ -157,24 +152,6 @@ Unlike naive ASCII conversion which renders dark areas as unreadable black voids
 - **Sky:** Rendered in pure deep black, creating razor-sharp contrast for falling digital rain streams.
 
 ---
-
-## 📂 Repository Contents
-
-```
-.
-├── main.c        # CPU 24-bit TrueColor Cinematic terminal simulation
-├── ascii.c       # CPU Green Matrix Digital Rain ASCII code simulation
-├── gpu-main.c    # GPU-accelerated TrueColor terminal simulation (Offscreen OpenGL)
-├── gpu-ascii.c   # GPU-accelerated Green Matrix ASCII code simulation (Offscreen OpenGL)
-├── Makefile      # Build configuration for all 4 editions
-├── assets/
-│   ├── matrix_code_terminal.gif       # Live animated terminal preview (Matrix Code)
-│   └── matrix_truecolor_terminal.gif  # Live animated terminal preview (TrueColor)
-└── README.md     # Documentation and user guide
-```
-
----
-
 ## 📜 License
 
 MIT License. Free for personal, educational, and creative use.
